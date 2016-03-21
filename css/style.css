@@ -1,0 +1,57 @@
+/* Global styles */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Flexbox set-up */
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 1028px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column-1 {
+    width: 16.666%;
+}
+
+.column-2 {
+    width: 33.333%;
+}
+
+.column-3 {
+    width: 50%;
+}
+
+.column-4 {
+    width: 66.666%;
+}
+
+.column-5 {
+    width: 83.333%;
+}
+
+.column-6 {
+    width: 100%;
+}
+
+/* temporarily hidden for styling */
+.modal {
+    display: none;
+}
