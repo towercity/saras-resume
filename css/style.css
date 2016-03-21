@@ -5,10 +5,29 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
     margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.flat-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.flat-list li {
+    margin: 0 5px;
 }
 
 /* Flexbox set-up */
@@ -20,7 +39,6 @@ body {
 .row {
     display: flex;
     display: -webkit-flex;
-    max-width: 1028px;
     margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
@@ -54,4 +72,40 @@ body {
 /* temporarily hidden for styling */
 .modal {
     display: none;
+}
+
+/* Specific styles */
+
+#header {
+    width: 100%;
+    position: fixed;
+    color: white;
+    background-color: black;
+    top: 0;
+    height: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#header a,
+#header a:hover
+#header a:visited
+#header a:active {
+    color: white;
+}
+
+#header-links,
+#header-contacts {
+    margin: 7px 0;
+    position: absolute;
+}
+
+#header-links {
+    left: 5px;
+    text-transform: uppercase;
+}
+
+#contact-list {
+    position: absolute;
+    right: 5px;
 }
