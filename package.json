@@ -1,0 +1,21 @@
+{
+  "name": "sara-resume",
+  "version": "1.0.0",
+  "description": "Sara Wasserman web resume",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towercity/saras-resume.git"
+  },
+  "author": "Matthew Nerger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towercity/saras-resume/issues"
+  },
+  "homepage": "https://github.com/towercity/saras-resume#readme"
+}
