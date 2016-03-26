@@ -29,6 +29,14 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
 a,
 a:hover {
     text-decoration: none;
