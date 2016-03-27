@@ -3,3 +3,5 @@ $("#splash-arrow").click(function() {
         scrollTop: $("#about").offset().top
     }, 1000);
 });
+
+//TODO: Add smooth scroll for header links

@@ -139,6 +139,7 @@ a:hover {
     right: 5px;
 }
 
+/* TODO: add a background video, as in example site */
 #splash-video {
     width: 100%;
     height: 100vh;
