@@ -156,7 +156,12 @@ a:hover {
     top: 45vh;
 }
 
-#splash-arrow {
+#splash-arrow-container {
     position: relative;
     top: 70vh;
+}
+
+#splash-arrow {
+    cursor: hand;
+    cursor: pointer;
 }
