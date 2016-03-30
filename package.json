@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "k"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
