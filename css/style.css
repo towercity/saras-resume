@@ -11,37 +11,34 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    text-align: center;
 }
 
 h1 {
     font-size: 4em;
-    margin: 0;
 }
 
 h2 {
     font-size: 3em;
-    margin: 0;
     padding: 50px 0;
-    text-align: center;
 }
 
 h3 {
     font-size: 2em;
-    margin: 0;
-    text-align: center;
     padding: 25px 0;
 }
 
 h4 {
     font-size: 1.125em;
-    margin: 0;
-}
-
-hr {
-    width: 50vw;
-    margin-top: 75px;
 }
 
 ul {
@@ -61,7 +58,7 @@ a:hover {
 }
 
 .flat-list li {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 /* Flexbox set-up */
@@ -120,7 +117,6 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     height: 40px;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     z-index: 1;
 }
